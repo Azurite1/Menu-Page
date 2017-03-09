@@ -9,23 +9,36 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    return UITableViewCell()
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
 }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "meunSegue", sender: self)
-    }
-    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
         
-        let secondViewController = segue.destination as! SecondViewController
-        secondViewController.recievedData = "hello"
+       func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+                _ = segue.destination as! SecondViewController
     }
+}
 
-class SecondViewController: UIViewController {
     
+    
+class SecondViewController: UIViewController {
+
     var recievedData = ""
     override func viewDidLoad() {
         super.viewDidLoad()
         print(recievedData)
     }
+}
 }
