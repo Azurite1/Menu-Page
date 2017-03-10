@@ -14,7 +14,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() {//
         super.didReceiveMemoryWarning()
     }
     
