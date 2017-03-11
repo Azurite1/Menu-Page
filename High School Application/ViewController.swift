@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  High School Application
-//
-//  Created by 2017alexisperez on 3/2/17.
-//  Copyright © 2017 2017alexisperez. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
