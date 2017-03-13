@@ -11,21 +11,21 @@
             <objects>
                 <tableViewController id="EQF-UC-4lr" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="xL7-Ht-p4w" customClass="MenuViewController">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
                             <tableViewSection headerTitle="Menu" id="D9G-ic-zPV">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="xph-du-uBm" rowHeight="43" style="IBUITableViewCellStyleDefault" id="tAb-bc-4tG">
-                                        <rect key="frame" x="0.0" y="56" width="414" height="43"/>
+                                        <rect key="frame" x="0.0" y="56" width="768" height="43"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tAb-bc-4tG" id="nA9-W5-fWW">
-                                            <frame key="frameInset" width="414" height="42"/>
+                                            <frame key="frameInset" width="768" height="42"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Sports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xph-du-uBm">
-                                                    <frame key="frameInset" minX="15" width="384" height="42"/>
+                                                    <frame key="frameInset" minX="48" width="672" height="42"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -38,14 +38,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="dlT-pS-qyt" rowHeight="45" style="IBUITableViewCellStyleDefault" id="7Ev-Pt-Ofm">
-                                        <rect key="frame" x="0.0" y="99" width="414" height="45"/>
+                                        <rect key="frame" x="0.0" y="99" width="768" height="45"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Ev-Pt-Ofm" id="4LS-it-Mhf">
-                                            <frame key="frameInset" width="414" height="44"/>
+                                            <frame key="frameInset" width="768" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Dances" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dlT-pS-qyt">
-                                                    <frame key="frameInset" minX="15" width="384" height="44"/>
+                                                    <frame key="frameInset" minX="48" width="672" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -55,14 +55,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="io5-aJ-5SV" style="IBUITableViewCellStyleDefault" id="tns-h1-2KE">
-                                        <rect key="frame" x="0.0" y="144" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="144" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tns-h1-2KE" id="Wdy-7O-qxn">
-                                            <frame key="frameInset" width="414" height="43"/>
+                                            <frame key="frameInset" width="768" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Other Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="io5-aJ-5SV">
-                                                    <frame key="frameInset" minX="15" width="384" height="43"/>
+                                                    <frame key="frameInset" minX="48" width="672" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -72,14 +72,14 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="yUc-dN-cvs" style="IBUITableViewCellStyleDefault" id="oSh-Z0-dil">
-                                        <rect key="frame" x="0.0" y="188" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="188" width="768" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oSh-Z0-dil" id="1bO-Hm-Hfv">
-                                            <frame key="frameInset" width="414" height="43"/>
+                                            <frame key="frameInset" width="768" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yUc-dN-cvs">
-                                                    <frame key="frameInset" minX="15" width="384" height="43"/>
+                                                    <frame key="frameInset" minX="48" width="672" height="43"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -111,19 +111,27 @@
                         <viewControllerLayoutGuide type="bottom" id="07K-h4-MFY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lby-nT-4VX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lgr-af-rxJ">
-                                <frame key="frameInset" minY="57" width="414" height="679"/>
+                                <frame key="frameInset" minY="78" width="768" height="946"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKs-pd-a5f">
-                                <frame key="frameInset" minX="676" minY="28" width="72" height="42"/>
+                                <frame key="frameInset" minX="666" minY="20" width="102" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Add "/>
+                                <state key="normal" title="Add Event"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-dS-FTO">
+                                <frame key="frameInset" minX="336" minY="24" width="78" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Add Event"/>
+                                <connections>
+                                    <segue destination="F7b-Rw-YaR" kind="show" id="Z0I-Ep-UIb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWd-iA-gQp">
                                 <frame key="frameInset" minY="20" width="90" height="29"/>
@@ -134,21 +142,13 @@
                                     <segue destination="EQF-UC-4lr" kind="show" id="8HZ-oH-M7J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-dS-FTO">
-                                <frame key="frameInset" minX="336" minY="24" width="78" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Add Event"/>
-                                <connections>
-                                    <segue destination="F7b-Rw-YaR" kind="show" id="Z0I-Ep-UIb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A8E-wZ-iVE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="307.24637681159425" y="-187.50000000000003"/>
+            <point key="canvasLocation" x="307.03125" y="-187.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wLV-fP-RAF">
@@ -159,14 +159,14 @@
                         <viewControllerLayoutGuide type="bottom" id="Vko-74-pAN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kmc-kD-gRv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsQ-lm-q62">
                                 <frame key="frameInset" minX="16" minY="14" width="63" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Back"/>
+                                <state key="normal" title="Cancel"/>
                                 <connections>
                                     <segue destination="6Ob-ne-OYw" kind="show" id="UHS-Xp-4gZ"/>
                                 </connections>
