@@ -15,16 +15,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
-}
+        return 1
+    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "meunSegue", sender: self)
         
        func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 _ = segue.destination as! SecondViewController
+        }
     }
-}
-
+   func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: IndexPath){
+    var cell = UITableView.self
+        if editingStyle == UITableViewCellEditingStyle.delete {
+            cell.deleteRows(at: [NSIndexPath], with: UITableViewRowAnimation.automatic)
+            
+    }
+    }
     
     
 class SecondViewController: UIViewController {
