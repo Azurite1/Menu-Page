@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AAE8A58996ACDAE52C2BEC4560C068BD0A46BA10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AAE8A58996ACDAE52C2BEC4560C068BD0A46BA10" : 9223372036854775807,
+    "AD7AF0856CBAAD5B27B58199E3B29A24E431295E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1714F347-A1B2-41C3-A3EF-8EBC6FE52773",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AAE8A58996ACDAE52C2BEC4560C068BD0A46BA10" : "Menu-Page\/",
+    "AD7AF0856CBAAD5B27B58199E3B29A24E431295E" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "High School Application",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "High School Application.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Azurite1\/Menu-Page.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AAE8A58996ACDAE52C2BEC4560C068BD0A46BA10"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Twilight00\/colabaration.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD7AF0856CBAAD5B27B58199E3B29A24E431295E"
+    }
+  ]
+}
